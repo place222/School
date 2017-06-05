@@ -22,7 +22,4 @@
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OrganizationUnits\Dto\" />
-  </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
 ﻿using Abp.Application.Services;
+using Abp.Organizations;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,8 +9,6 @@ namespace School.OrganizationUnits
 {
     public interface IOrganizationUnitAppService : IApplicationService
     {
-        Task Test();
-
-
+        Task<IEnumerable<OrganizationUnit>> Test();
     }
 }
