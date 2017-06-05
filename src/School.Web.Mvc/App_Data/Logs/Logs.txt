@@ -1,0 +1,450 @@
+﻿DEBUG 2017-06-05 14:39:30,794 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-05 14:39:30,816 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2017-06-05 14:39:30,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: School.Web.Startup.SchoolWebMvcModule, School.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: School.SchoolWebCoreModule, School.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: School.SchoolApplicationModule, School.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: School.SchoolCoreModule, School.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: School.EntityFrameworkCore.SchoolEntityFrameworkModule, School.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:30,832 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2017-06-05 14:39:30,878 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 14:39:30,878 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 14:39:30,878 [1    ] o.Configuration.LanguageManagementConfig - Converted School (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 14:39:30,878 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-05 14:39:31,096 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: School.EntityFrameworkCore.SchoolDbContext, School.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-05 14:39:31,477 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-05 14:39:31,514 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-05 14:39:31,519 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-05 14:39:31,520 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: School
+DEBUG 2017-06-05 14:39:31,521 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-05 14:39:31,565 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-05 14:39:31,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-06-05 14:39:31,609 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-06-05 14:39:31,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.Users.Dto.CreateUserInput
+DEBUG 2017-06-05 14:39:31,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.Users.Dto.UserListDto
+DEBUG 2017-06-05 14:39:31,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-06-05 14:39:31,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-06-05 14:39:31,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-06-05 14:39:31,613 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-06-05 14:39:31,613 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - School.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2017-06-05 14:39:35,361 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2017-06-05 14:39:35,382 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2017-06-05 14:39:35,442 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2017-06-05 14:39:35,466 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" started.
+INFO  2017-06-05 14:39:35,533 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2017-06-05 14:39:35,608 [3    ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2017-06-05 14:39:35,771 [3    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:36,372 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action School.Web.Controllers.HomeController.Index (School.Web.Mvc)
+WARN  2017-06-05 14:39:36,469 [3    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext()
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext()
+INFO  2017-06-05 14:39:36,473 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2017-06-05 14:39:36,476 [3    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2017-06-05 14:39:36,494 [3    ] entication.JwtBearer.JwtBearerMiddleware - AuthenticationScheme: Bearer was challenged.
+INFO  2017-06-05 14:39:36,504 [3    ] n.Cookies.CookieAuthenticationMiddleware - AuthenticationScheme: SchoolAuthSchema was challenged.
+INFO  2017-06-05 14:39:36,506 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action School.Web.Controllers.HomeController.Index (School.Web.Mvc) in 132.7823ms
+DEBUG 2017-06-05 14:39:36,555 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:36,558 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1035.6134ms 302 
+INFO  2017-06-05 14:39:36,597 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+DEBUG 2017-06-05 14:39:36,599 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /Account/Login does not match a supported file type
+DEBUG 2017-06-05 14:39:36,600 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:36,600 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-06-05 14:39:36,600 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:36,608 [9    ] t.AspNetCore.Mvc.Internal.ActionSelector - Action 'School.Web.Controllers.AccountController.Login (School.Web.Mvc)' with id '379c51fa-5d60-415a-94e8-3673447d48f3' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+DEBUG 2017-06-05 14:39:36,611 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action School.Web.Controllers.AccountController.Login (School.Web.Mvc)
+INFO  2017-06-05 14:39:37,305 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method School.Web.Controllers.AccountController.Login (School.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+DEBUG 2017-06-05 14:39:37,311 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method School.Web.Controllers.AccountController.Login (School.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2017-06-05 14:39:37,595 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Login' in controller 'Account'.
+DEBUG 2017-06-05 14:39:37,609 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/Login.cshtml' started.
+DEBUG 2017-06-05 14:39:38,014 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/Login.cshtml' completed in 404.0251ms.
+DEBUG 2017-06-05 14:39:38,016 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' started.
+DEBUG 2017-06-05 14:39:39,305 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' completed in 1289.3715ms.
+DEBUG 2017-06-05 14:39:39,309 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_ViewStart.cshtml' started.
+DEBUG 2017-06-05 14:39:39,316 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_ViewStart.cshtml' completed in 7.2721ms.
+DEBUG 2017-06-05 14:39:39,316 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_ViewStart.cshtml' started.
+DEBUG 2017-06-05 14:39:39,352 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_ViewStart.cshtml' completed in 36.3048ms.
+DEBUG 2017-06-05 14:39:39,354 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2017-06-05 14:39:39,360 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 5.8948ms.
+DEBUG 2017-06-05 14:39:39,360 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2017-06-05 14:39:39,388 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 28.0993ms.
+DEBUG 2017-06-05 14:39:39,394 [3    ] ViewFeatures.Internal.ViewResultExecutor - The view 'Login' was found.
+INFO  2017-06-05 14:39:39,395 [3    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+DEBUG 2017-06-05 14:39:39,515 [3    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys\key-5cd1b252-ff39-4985-a92d-6a2fddbbab32.xml'.
+DEBUG 2017-06-05 14:39:39,546 [3    ] taProtection.KeyManagement.XmlKeyManager - Found key {5cd1b252-ff39-4985-a92d-6a2fddbbab32}.
+DEBUG 2017-06-05 14:39:39,570 [3    ] tection.KeyManagement.DefaultKeyResolver - Considering key {5cd1b252-ff39-4985-a92d-6a2fddbbab32} with expiration date 2017-08-08 08:05:49Z as default key.
+DEBUG 2017-06-05 14:39:39,577 [3    ] otection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+DEBUG 2017-06-05 14:39:39,583 [3    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+DEBUG 2017-06-05 14:39:39,586 [3    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+DEBUG 2017-06-05 14:39:39,595 [3    ] Protection.KeyManagement.KeyRingProvider - Using key {5cd1b252-ff39-4985-a92d-6a2fddbbab32} as the default key.
+DEBUG 2017-06-05 14:39:39,598 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {5cd1b252-ff39-4985-a92d-6a2fddbbab32} with purposes ('E:\gitcode\School\src\School.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-06-05 14:39:39,603 [3    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {5cd1b252-ff39-4985-a92d-6a2fddbbab32} with purposes ('E:\gitcode\School\src\School.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-06-05 14:39:39,608 [3    ] .Antiforgery.Internal.DefaultAntiforgery - A new antiforgery cookie token was created.
+DEBUG 2017-06-05 14:39:39,642 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_Layout.cshtml' started.
+DEBUG 2017-06-05 14:39:39,677 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_Layout.cshtml' completed in 34.7087ms.
+DEBUG 2017-06-05 14:39:39,677 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_Layout.cshtml' started.
+DEBUG 2017-06-05 14:39:39,807 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_Layout.cshtml' completed in 130.301ms.
+DEBUG 2017-06-05 14:39:39,931 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view '_TopBar' in controller 'Account'.
+DEBUG 2017-06-05 14:39:39,931 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_TopBar.cshtml' started.
+DEBUG 2017-06-05 14:39:39,939 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_TopBar.cshtml' completed in 7.3076ms.
+DEBUG 2017-06-05 14:39:39,939 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_TopBar.cshtml' started.
+DEBUG 2017-06-05 14:39:39,982 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_TopBar.cshtml' completed in 43.1136ms.
+DEBUG 2017-06-05 14:39:40,009 [3    ] ewComponents.DefaultViewComponentInvoker - Executing view component School.Web.Views.Shared.Components.TopMenu.TopMenuViewComponent with arguments ().
+DEBUG 2017-06-05 14:39:40,023 [3    ] ewComponents.DefaultViewComponentInvoker - Executed view component School.Web.Views.Shared.Components.TopMenu.TopMenuViewComponent in 12.9915ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-06-05 14:39:40,026 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopMenu/Default' in controller 'Account'.
+DEBUG 2017-06-05 14:39:40,027 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopMenu/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,035 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopMenu/Default.cshtml' completed in 8.1333ms.
+DEBUG 2017-06-05 14:39:40,035 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopMenu/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,073 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopMenu/Default.cshtml' completed in 38.0517ms.
+DEBUG 2017-06-05 14:39:40,082 [3    ] ewComponents.DefaultViewComponentInvoker - Executing view component School.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewComponent with arguments ().
+DEBUG 2017-06-05 14:39:40,084 [3    ] ewComponents.DefaultViewComponentInvoker - Executed view component School.Web.Views.Shared.Components.LanguageSelection.LanguageSelectionViewComponent in 1.947ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-06-05 14:39:40,084 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/LanguageSelection/Default' in controller 'Account'.
+DEBUG 2017-06-05 14:39:40,085 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/LanguageSelection/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,092 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/LanguageSelection/Default.cshtml' completed in 6.56ms.
+DEBUG 2017-06-05 14:39:40,092 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/LanguageSelection/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,125 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/LanguageSelection/Default.cshtml' completed in 32.5447ms.
+DEBUG 2017-06-05 14:39:40,133 [3    ] ewComponents.DefaultViewComponentInvoker - Executing view component School.Web.Views.Shared.Components.UserMenuOrLoginLink.UserMenuOrLoginLinkViewComponent with arguments ().
+DEBUG 2017-06-05 14:39:40,134 [3    ] ewComponents.DefaultViewComponentInvoker - Executed view component School.Web.Views.Shared.Components.UserMenuOrLoginLink.UserMenuOrLoginLinkViewComponent in 1.0486ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-06-05 14:39:40,134 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/UserMenuOrLoginLink/Default' in controller 'Account'.
+DEBUG 2017-06-05 14:39:40,135 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/UserMenuOrLoginLink/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,142 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/UserMenuOrLoginLink/Default.cshtml' completed in 6.2521ms.
+DEBUG 2017-06-05 14:39:40,142 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/UserMenuOrLoginLink/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,178 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/UserMenuOrLoginLink/Default.cshtml' completed in 36.4817ms.
+DEBUG 2017-06-05 14:39:40,190 [3    ] ewComponents.DefaultViewComponentInvoker - Executing view component School.Web.Views.Shared.Components.TenantChange.TenantChangeViewComponent with arguments ().
+DEBUG 2017-06-05 14:39:40,206 [3    ] ewComponents.DefaultViewComponentInvoker - Executed view component School.Web.Views.Shared.Components.TenantChange.TenantChangeViewComponent in 15.7297ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-06-05 14:39:40,206 [3    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TenantChange/Default' in controller 'Account'.
+DEBUG 2017-06-05 14:39:40,207 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,213 [3    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' completed in 6.5844ms.
+DEBUG 2017-06-05 14:39:40,213 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' started.
+DEBUG 2017-06-05 14:39:40,249 [3    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' completed in 34.9845ms.
+INFO  2017-06-05 14:39:40,461 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action School.Web.Controllers.AccountController.Login (School.Web.Mvc) in 3849.5724ms
+DEBUG 2017-06-05 14:39:40,466 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,466 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3869.271ms 200 text/html; charset=utf-8
+DEBUG 2017-06-05 14:39:40,499 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" started.
+DEBUG 2017-06-05 14:39:40,499 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" started.
+DEBUG 2017-06-05 14:39:40,499 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" started.
+INFO  2017-06-05 14:39:40,499 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css?v=k66BSDvi6XBdtM2RH6QQvCz2wk81XcWsiZ3kn6uFTmM  
+DEBUG 2017-06-05 14:39:40,500 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" started.
+DEBUG 2017-06-05 14:39:40,500 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" started.
+INFO  2017-06-05 14:39:40,500 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/all.css?v=ItA1gGdeSMeWa4SBZJPAOkJGr_A2saTVoUBZuJIU1Hc  
+INFO  2017-06-05 14:39:40,500 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-theme-cosmo/cosmo.min.css?v=-F3zkG_rwhv0xYnCOp0bxhvkM8XRzGmDiPSx8dOq4pE  
+INFO  2017-06-05 14:39:40,500 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2017-06-05 14:39:40,501 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2017-06-05 14:39:40,501 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=uXf0U0UCIqBp2J3S53b28h-fpC9uFcA8f-b_NNmiwVk  
+INFO  2017-06-05 14:39:40,507 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.css'
+INFO  2017-06-05 14:39:40,507 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-theme-cosmo/cosmo.min.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\bootstrap-theme-cosmo\cosmo.min.css'
+INFO  2017-06-05 14:39:40,507 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2017-06-05 14:39:40,507 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2017-06-05 14:39:40,507 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2017-06-05 14:39:40,507 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/all.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\all.css'
+DEBUG 2017-06-05 14:39:40,517 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,517 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.0818ms 200 text/css
+DEBUG 2017-06-05 14:39:40,518 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,518 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.5977ms 200 text/css
+DEBUG 2017-06-05 14:39:40,519 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,519 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.3453ms 200 text/css
+DEBUG 2017-06-05 14:39:40,519 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,519 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.3948ms 200 text/css
+DEBUG 2017-06-05 14:39:40,521 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,521 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.2051ms 200 text/css
+DEBUG 2017-06-05 14:39:40,526 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,526 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.497ms 200 text/css
+INFO  2017-06-05 14:39:40,554 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/main.css?v=VA7lunOW7FdmORf6HWlLdTcUwZi2ANUSe8WVyNY7pLA  
+INFO  2017-06-05 14:39:40,555 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/main.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\css\main.css'
+INFO  2017-06-05 14:39:40,555 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=vgFncCfB8ygfO5TGqskSCiB5x7swerhkFnaDnqE2RXM  
+DEBUG 2017-06-05 14:39:40,555 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,555 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5823ms 200 text/css
+INFO  2017-06-05 14:39:40,555 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+DEBUG 2017-06-05 14:39:40,555 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,555 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2956ms 200 text/css
+INFO  2017-06-05 14:39:40,570 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2017-06-05 14:39:40,570 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=oYqpLeqZe9cetUDV-TFiBZHp3uJ-X4F5eLs4W6uSTSE  
+INFO  2017-06-05 14:39:40,570 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2017-06-05 14:39:40,570 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/jquery-ui.js?v=0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl_WsAl1Ryk  
+INFO  2017-06-05 14:39:40,570 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2017-06-05 14:39:40,570 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/jquery-ui.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\jquery-ui.js'
+DEBUG 2017-06-05 14:39:40,570 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,570 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5826ms 200 application/javascript
+INFO  2017-06-05 14:39:40,571 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=3vw5dArBhZ2OJ4XtRzIIQJYn6Hrd1fePLeqsuToS1R0  
+INFO  2017-06-05 14:39:40,571 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+DEBUG 2017-06-05 14:39:40,576 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,576 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.6037ms 200 application/javascript
+DEBUG 2017-06-05 14:39:40,579 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,579 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.3682ms 200 application/javascript
+INFO  2017-06-05 14:39:40,585 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/base.css  
+INFO  2017-06-05 14:39:40,585 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/base.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\base.css'
+INFO  2017-06-05 14:39:40,585 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/theme.css  
+INFO  2017-06-05 14:39:40,585 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/theme.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\theme.css'
+DEBUG 2017-06-05 14:39:40,590 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,591 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.2954ms 200 text/css
+DEBUG 2017-06-05 14:39:40,591 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,591 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.6644ms 200 text/css
+INFO  2017-06-05 14:39:40,595 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2017-06-05 14:39:40,595 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+DEBUG 2017-06-05 14:39:40,598 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,598 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.3246ms 200 application/javascript
+INFO  2017-06-05 14:39:40,617 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2017-06-05 14:39:40,617 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+DEBUG 2017-06-05 14:39:40,617 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,617 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5922ms 200 application/javascript
+INFO  2017-06-05 14:39:40,623 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2017-06-05 14:39:40,623 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+DEBUG 2017-06-05 14:39:40,623 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,623 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6405ms 200 application/javascript
+INFO  2017-06-05 14:39:40,625 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2017-06-05 14:39:40,625 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+DEBUG 2017-06-05 14:39:40,625 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,625 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5255ms 200 application/javascript
+DEBUG 2017-06-05 14:39:40,642 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,642 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.6228ms 200 application/javascript
+INFO  2017-06-05 14:39:40,673 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js?v=Y6AEuvugryve80FgzPE3e2EONgfiYPcaSaqF-vIFGIA  
+INFO  2017-06-05 14:39:40,673 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert-dev.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert-dev.js'
+DEBUG 2017-06-05 14:39:40,674 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,674 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9449ms 200 application/javascript
+INFO  2017-06-05 14:39:40,682 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/core.css  
+INFO  2017-06-05 14:39:40,682 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/core.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\core.css'
+INFO  2017-06-05 14:39:40,683 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/accordion.css  
+INFO  2017-06-05 14:39:40,683 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/accordion.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\accordion.css'
+INFO  2017-06-05 14:39:40,684 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/autocomplete.css  
+DEBUG 2017-06-05 14:39:40,684 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,684 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/autocomplete.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\autocomplete.css'
+INFO  2017-06-05 14:39:40,684 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.8535ms 200 text/css
+DEBUG 2017-06-05 14:39:40,684 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,685 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4049ms 200 text/css
+DEBUG 2017-06-05 14:39:40,687 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,687 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.5818ms 200 text/css
+INFO  2017-06-05 14:39:40,698 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/button.css  
+INFO  2017-06-05 14:39:40,698 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/button.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\button.css'
+DEBUG 2017-06-05 14:39:40,699 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,699 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4173ms 200 text/css
+INFO  2017-06-05 14:39:40,716 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/checkboxradio.css  
+INFO  2017-06-05 14:39:40,716 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/checkboxradio.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\checkboxradio.css'
+INFO  2017-06-05 14:39:40,716 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/controlgroup.css  
+INFO  2017-06-05 14:39:40,717 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/controlgroup.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\controlgroup.css'
+INFO  2017-06-05 14:39:40,717 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/datepicker.css  
+INFO  2017-06-05 14:39:40,717 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/datepicker.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\datepicker.css'
+DEBUG 2017-06-05 14:39:40,717 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,718 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.48ms 200 text/css
+DEBUG 2017-06-05 14:39:40,718 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,718 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/dialog.css  
+INFO  2017-06-05 14:39:40,718 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.221ms 200 text/css
+INFO  2017-06-05 14:39:40,718 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/dialog.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\dialog.css'
+DEBUG 2017-06-05 14:39:40,718 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,718 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2736ms 200 text/css
+DEBUG 2017-06-05 14:39:40,719 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,719 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9056ms 200 text/css
+INFO  2017-06-05 14:39:40,737 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/draggable.css  
+INFO  2017-06-05 14:39:40,737 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/draggable.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\draggable.css'
+INFO  2017-06-05 14:39:40,738 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/menu.css  
+DEBUG 2017-06-05 14:39:40,738 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,738 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/menu.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\menu.css'
+INFO  2017-06-05 14:39:40,738 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1312ms 200 text/css
+DEBUG 2017-06-05 14:39:40,739 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,739 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0582ms 200 text/css
+INFO  2017-06-05 14:39:40,742 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/progressbar.css  
+INFO  2017-06-05 14:39:40,742 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/progressbar.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\progressbar.css'
+INFO  2017-06-05 14:39:40,742 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/resizable.css  
+INFO  2017-06-05 14:39:40,743 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/resizable.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\resizable.css'
+DEBUG 2017-06-05 14:39:40,743 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,744 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0107ms 200 text/css
+INFO  2017-06-05 14:39:40,744 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/selectmenu.css  
+DEBUG 2017-06-05 14:39:40,744 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,744 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5852ms 200 text/css
+INFO  2017-06-05 14:39:40,744 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/selectmenu.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\selectmenu.css'
+INFO  2017-06-05 14:39:40,743 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/selectable.css  
+INFO  2017-06-05 14:39:40,745 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/selectable.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\selectable.css'
+DEBUG 2017-06-05 14:39:40,745 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,745 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1925ms 200 text/css
+DEBUG 2017-06-05 14:39:40,745 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,745 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/sortable.css  
+INFO  2017-06-05 14:39:40,745 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4136ms 200 text/css
+INFO  2017-06-05 14:39:40,746 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/sortable.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\sortable.css'
+DEBUG 2017-06-05 14:39:40,746 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,746 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7737ms 200 text/css
+INFO  2017-06-05 14:39:40,758 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/slider.css  
+INFO  2017-06-05 14:39:40,758 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/slider.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\slider.css'
+INFO  2017-06-05 14:39:40,761 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/spinner.css  
+DEBUG 2017-06-05 14:39:40,761 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,761 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.7543ms 200 text/css
+INFO  2017-06-05 14:39:40,761 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/spinner.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\spinner.css'
+DEBUG 2017-06-05 14:39:40,762 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,762 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0399ms 200 text/css
+INFO  2017-06-05 14:39:40,777 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/tabs.css  
+INFO  2017-06-05 14:39:40,777 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/tabs.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\tabs.css'
+DEBUG 2017-06-05 14:39:40,778 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,778 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-ui/themes/base/tooltip.css  
+INFO  2017-06-05 14:39:40,778 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3505ms 200 text/css
+INFO  2017-06-05 14:39:40,779 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-ui/themes/base/tooltip.css'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\jquery-ui\themes\base\tooltip.css'
+INFO  2017-06-05 14:39:40,779 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2017-06-05 14:39:40,779 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+DEBUG 2017-06-05 14:39:40,779 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,779 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.313ms 200 application/javascript
+INFO  2017-06-05 14:39:40,779 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2017-06-05 14:39:40,779 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+DEBUG 2017-06-05 14:39:40,779 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+DEBUG 2017-06-05 14:39:40,779 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,779 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1129ms 200 text/css
+INFO  2017-06-05 14:39:40,779 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2977ms 200 application/javascript
+INFO  2017-06-05 14:39:40,783 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=8Fv5Ryar8BgkV6_q_U-zsW2dA57HxErdoXVKogeTUy4  
+INFO  2017-06-05 14:39:40,783 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2017-06-05 14:39:40,784 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=771dB7tcVPQ85juFv9xx_A0lO72U1T_oU40LcTzFUno  
+DEBUG 2017-06-05 14:39:40,784 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,784 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5288ms 200 application/javascript
+INFO  2017-06-05 14:39:40,784 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+DEBUG 2017-06-05 14:39:40,784 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:40,784 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4047ms 200 application/javascript
+INFO  2017-06-05 14:39:40,789 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2017-06-05 14:39:40,789 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+DEBUG 2017-06-05 14:39:40,789 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,789 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5618ms 200 application/javascript
+INFO  2017-06-05 14:39:40,807 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2017-06-05 14:39:40,807 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+DEBUG 2017-06-05 14:39:40,808 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,808 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4095ms 200 application/javascript
+INFO  2017-06-05 14:39:40,818 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2017-06-05 14:39:40,819 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2017-06-05 14:39:40,819 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=hNRpwdBoFAgGbY4NAMHV0Knx7d0-y0Q58G0s-pBUBfY  
+INFO  2017-06-05 14:39:40,819 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr/jquery.signalR.js?v=gOpGgkGCp_M2dnjvSIifPyTv23KFGLIqiGjhajesAsM  
+DEBUG 2017-06-05 14:39:40,819 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,819 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2017-06-05 14:39:40,819 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.8599ms 200 application/javascript
+INFO  2017-06-05 14:39:40,819 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr/jquery.signalR.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\signalr\jquery.signalR.js'
+DEBUG 2017-06-05 14:39:40,820 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,820 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7015ms 200 application/javascript
+INFO  2017-06-05 14:39:40,820 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=UlK3qqVRWdC2r1jDHLd_MA-9Bib51wxxxJkLJQl91r0  
+DEBUG 2017-06-05 14:39:40,820 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,820 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.892ms 200 application/javascript
+INFO  2017-06-05 14:39:40,820 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\js\main.js'
+DEBUG 2017-06-05 14:39:40,820 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,820 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3473ms 200 application/javascript
+INFO  2017-06-05 14:39:40,827 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636322703715666007  
+DEBUG 2017-06-05 14:39:40,827 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2017-06-05 14:39:40,828 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:40,828 [10   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-06-05 14:39:40,828 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+INFO  2017-06-05 14:39:40,828 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636322703715666007  
+DEBUG 2017-06-05 14:39:40,828 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2017-06-05 14:39:40,828 [27   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:40,828 [27   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-06-05 14:39:40,828 [27   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:40,833 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+DEBUG 2017-06-05 14:39:40,833 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2017-06-05 14:39:40,838 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-06-05 14:39:40,848 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr/hubs  
+INFO  2017-06-05 14:39:40,848 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js  
+DEBUG 2017-06-05 14:39:40,848 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /signalr/hubs does not match a supported file type
+DEBUG 2017-06-05 14:39:40,849 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:40,849 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-06-05 14:39:40,849 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:40,849 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+INFO  2017-06-05 14:39:40,849 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+DEBUG 2017-06-05 14:39:40,849 [9    ] soft.AspNetCore.Builder.RouterMiddleware - Request did not match any routes.
+DEBUG 2017-06-05 14:39:40,849 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,849 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1607ms 404 
+INFO  2017-06-05 14:39:40,850 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=kQUs9_-1irLwm1957Lus1tFMvZJbgVpnUwYqb-GL12s  
+DEBUG 2017-06-05 14:39:40,850 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" completed keep alive response.
+INFO  2017-06-05 14:39:40,850 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3725ms 200 application/javascript
+INFO  2017-06-05 14:39:40,850 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+DEBUG 2017-06-05 14:39:40,850 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:40,850 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4287ms 200 application/javascript
+DEBUG 2017-06-05 14:39:40,898 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2017-06-05 14:39:40,901 [27   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-06-05 14:39:40,901 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 68.5229ms
+DEBUG 2017-06-05 14:39:40,902 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" completed keep alive response.
+INFO  2017-06-05 14:39:40,902 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73.818ms 200 application/x-javascript; charset=utf-8
+INFO  2017-06-05 14:39:40,916 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2017-06-05 14:39:40,982 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+INFO  2017-06-05 14:39:40,982 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+DEBUG 2017-06-05 14:39:40,984 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" completed keep alive response.
+INFO  2017-06-05 14:39:40,984 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6561ms 200 application/font-woff2
+INFO  2017-06-05 14:39:40,984 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2017-06-05 14:39:40,984 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'E:\gitcode\School\src\School.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+DEBUG 2017-06-05 14:39:40,985 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" completed keep alive response.
+INFO  2017-06-05 14:39:40,986 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6931ms 200 image/png
+DEBUG 2017-06-05 14:39:41,001 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2017-06-05 14:39:41,014 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-06-05 14:39:41,018 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2017-06-05 14:39:41,019 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-06-05 14:39:41,024 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 191.0635ms
+DEBUG 2017-06-05 14:39:41,024 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" completed keep alive response.
+INFO  2017-06-05 14:39:41,024 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 196.9232ms 200 text/javascript; charset=utf-8
+INFO  2017-06-05 14:39:41,093 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr/hubs  
+DEBUG 2017-06-05 14:39:41,093 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /signalr/hubs does not match a supported file type
+DEBUG 2017-06-05 14:39:41,093 [13   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:41,093 [13   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-06-05 14:39:41,093 [13   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-06-05 14:39:41,093 [13   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-06-05 14:39:41,093 [13   ] soft.AspNetCore.Builder.RouterMiddleware - Request did not match any routes.
+DEBUG 2017-06-05 14:39:41,093 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" completed keep alive response.
+INFO  2017-06-05 14:39:41,093 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.252ms 404 
+DEBUG 2017-06-05 14:41:35,453 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" reset.
+DEBUG 2017-06-05 14:41:35,453 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" reset.
+DEBUG 2017-06-05 14:41:35,453 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" reset.
+DEBUG 2017-06-05 14:41:35,454 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" reset.
+DEBUG 2017-06-05 14:41:35,454 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" reset.
+DEBUG 2017-06-05 14:41:35,454 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" disconnecting.
+DEBUG 2017-06-05 14:41:35,454 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" disconnecting.
+DEBUG 2017-06-05 14:41:35,454 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" disconnecting.
+DEBUG 2017-06-05 14:41:35,454 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" disconnecting.
+DEBUG 2017-06-05 14:41:35,453 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" reset.
+DEBUG 2017-06-05 14:41:35,454 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" sending FIN.
+DEBUG 2017-06-05 14:41:35,454 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" sending FIN.
+DEBUG 2017-06-05 14:41:35,454 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" sending FIN.
+DEBUG 2017-06-05 14:41:35,455 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" disconnecting.
+DEBUG 2017-06-05 14:41:35,455 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" disconnecting.
+DEBUG 2017-06-05 14:41:35,455 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" disconnecting.
+DEBUG 2017-06-05 14:41:35,455 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" disconnecting.
+DEBUG 2017-06-05 14:41:35,455 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" sending FIN.
+DEBUG 2017-06-05 14:41:35,455 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" disconnecting.
+DEBUG 2017-06-05 14:41:35,455 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" sending FIN.
+DEBUG 2017-06-05 14:41:35,455 [27   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" disconnecting.
+DEBUG 2017-06-05 14:41:35,455 [8    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" disconnecting.
+DEBUG 2017-06-05 14:41:35,456 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" stopped.
+DEBUG 2017-06-05 14:41:35,456 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" stopped.
+DEBUG 2017-06-05 14:41:35,456 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" stopped.
+DEBUG 2017-06-05 14:41:35,457 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" stopped.
+DEBUG 2017-06-05 14:41:35,457 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO768" stopped.
+DEBUG 2017-06-05 14:41:35,457 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" stopped.
+DEBUG 2017-06-05 14:41:35,458 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76B" sent FIN with status "-4081".
+DEBUG 2017-06-05 14:41:35,458 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76C" sent FIN with status "-4081".
+DEBUG 2017-06-05 14:41:35,458 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76A" sent FIN with status "-4081".
+DEBUG 2017-06-05 14:41:35,458 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76D" sent FIN with status "-4081".
+DEBUG 2017-06-05 14:41:35,458 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO769" sent FIN with status "-4081".
+DEBUG 2017-06-05 14:45:04,596 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting shutdown
+DEBUG 2017-06-05 14:45:04,597 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76E" started.
+DEBUG 2017-06-05 14:45:04,597 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76E" received FIN.
+DEBUG 2017-06-05 14:45:04,597 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76E" disconnecting.
+DEBUG 2017-06-05 14:45:04,597 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76E" sending FIN.
+DEBUG 2017-06-05 14:45:04,597 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76E" sent FIN with status "0".
+DEBUG 2017-06-05 14:45:04,598 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL5BRMGQO76E" stopped.
