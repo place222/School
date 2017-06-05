@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace School.OrganizationUnits
 {
+    /// <summary>
+    /// 不做原型中的有关Code和状态这个
+    /// </summary>
     public class OrganizationUnitAppService : SchoolAppServiceBase, IOrganizationUnitAppService
     {
         private readonly OrganizationUnitManager _organizationUnitManager;
@@ -18,9 +21,15 @@ namespace School.OrganizationUnits
             _organizationUnitRepository = organizationUnitRepository;
         }
 
-        public async Task<IEnumerable<OrganizationUnit>> Test()
+        /// <summary>
+        /// 查找全部
+        /// </summary>
+        /// <returns></returns>
+        public async Task<IEnumerable<OrganizationUnitDto>> GetAll()
         {
-            return await _organizationUnitManager.FindChildrenAsync(null);
+            var list = await _organizationUnitManager.FindChildrenAsync(null, true);
+
+            return ObjectMapper.Map<IEnumerable<OrganizationUnitDto>>(list);
         }
 
         /// <summary>
@@ -50,11 +59,21 @@ namespace School.OrganizationUnits
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        public async Task Edit(EditOrganizationUnitInput input)
+        public async Task Update(EditOrganizationUnitInput input)
         {
             var org = await _organizationUnitRepository.GetAsync(input.Id);
 
             org.DisplayName = input.DisplayName;
+        }
+
+        /// <summary>
+        /// 删除机构
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task Delete(long id)
+        {
+            await _organizationUnitManager.DeleteAsync(id);
         }
 
     }

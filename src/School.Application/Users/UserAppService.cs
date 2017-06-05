@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Identity;
 namespace School.Users
 {
     /* THIS IS JUST A SAMPLE. */
-    [AbpAuthorize(PermissionNames.Pages_Users)]
+    //[AbpAuthorize(PermissionNames.Pages_Users)]
     public class UserAppService : SchoolAppServiceBase, IUserAppService
     {
         private readonly IRepository<User, long> _userRepository;
@@ -28,6 +28,11 @@ namespace School.Users
             _passwordHasher = passwordHasher;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task ProhibitPermission(ProhibitPermissionInput input)
         {
             var user = await UserManager.GetUserByIdAsync(input.UserId);
@@ -36,6 +41,12 @@ namespace School.Users
             await UserManager.ProhibitPermissionAsync(user, permission);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="roleName"></param>
+        /// <returns></returns>
         //Example for primitive method parameters.
         public async Task RemoveFromRole(long userId, string roleName)
         {
@@ -43,6 +54,11 @@ namespace School.Users
             CheckErrors(await UserManager.RemoveFromRoleAsync(user, roleName));
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public async Task<ListResultDto<UserListDto>> GetUsers()
         {
             var users = await _userRepository.GetAllListAsync();
@@ -52,6 +68,12 @@ namespace School.Users
                 );
         }
 
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task CreateUser(CreateUserInput input)
         {
             var user = ObjectMapper.Map<User>(input);
