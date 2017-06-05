@@ -8,6 +8,8 @@ namespace School.OrganizationUnits
 {
     public interface IOrganizationUnitAppService : IApplicationService
     {
-        Task Test(); 
+        Task Test();
+
+
     }
 }

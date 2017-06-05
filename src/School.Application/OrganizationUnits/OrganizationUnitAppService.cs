@@ -9,9 +9,10 @@ namespace School.OrganizationUnits
 {
     public class OrganizationUnitAppService : SchoolAppServiceBase, IOrganizationUnitAppService
     {
-        public OrganizationUnitAppService()
+        private readonly OrganizationUnitManager _organizationUnitManager;
+        public OrganizationUnitAppService(OrganizationUnitManager organizationUnitManager)
         {
-
+            _organizationUnitManager = organizationUnitManager;
         }
 
         public Task Test()
